@@ -4,7 +4,7 @@ Bootstrap 4 drops the Affix jQuery plugin. They recommend using a `position: sti
 
 Alternatively this template will show you how to use the Bootstrap 3 plugin with Bootstrap 4.
 
-Bootstrap 4 with Affix plugin. It includes a Sass compiler and a set of Panini HTML templates for you. [Panini](https://github.com/zurb/panini) is a super simple flat file generator for use with Gulp. It compiles a series of HTML pages using a common layout. These pages can also include HTML partials, external Handlebars helpers, or external data as JSON or YAML.
+Bootstrap 4 with jQuery Affix plugin. It includes a Sass compiler and a set of Panini HTML templates for you. [Panini](https://github.com/zurb/panini) is a super simple flat file generator for use with Gulp. It compiles a series of HTML pages using a common layout. These pages can also include HTML partials, external Handlebars helpers, or external data as JSON or YAML.
 
 ## Installation
 
@@ -52,13 +52,15 @@ Finally, run `npm start` to run the Sass and HTML template compiler. They will r
 
 ### Do not forget to to declare the required CSS classes:
 
-```.affix {
+```scss
+.affix {
   position: fixed;
   top: 1rem;
 }
 
 .affix-bottom {
   position: absolute;
-}```
+}
+```
 
 
