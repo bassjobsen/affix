@@ -1,0 +1,10 @@
+    <!-- jQuery first, then Bootstrap JS. -->
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/HubSpot/tether/v1.2.0/dist/js/tether.min.js"></script-->
+    <script src="{{ root }}js/app.js"></script>
+    <script>
+    $('[data-spy="affix"]').on('affixed.bs.affix', function () {
+        // from http://stackoverflow.com/questions/6551429/adjust-a-width-based-on-parent-w-jquery
+        $(".affix").css("width",$(".affix").parent().css("width").replace('px','') - 30);
+    })
+    </script>

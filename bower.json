@@ -1,0 +1,23 @@
+{
+  "name": "affix",
+  "version": "0.0.1",
+  "authors": [
+     "Bass Jobsen <bass@w3masters.nl> (http://bassjobsen.weblogs.fm)"
+  ],
+  "description": "Bootstrap 4 with jQuery Affix plugin. Powered by Panini, Sass and Gulp.",
+  "main": "_site/index.html",
+  "license": "MIT",
+  "homepage": "https://github.com/bassjobsen/affix/",
+  "dependencies": {
+    "bootstrap": "4",
+    "tether": "^1.1.2"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "_site",
+    "test",
+    "tests"
+  ]
+}
